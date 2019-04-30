@@ -59,7 +59,7 @@ public class Node {
         return saveForReturn;
     }
 
-    public Node setLastNode( Node prevNode) {
+    public Node setPrevNode( Node prevNode) {
 	Node saveForReturn = this.prevNode;
 	this.prevNode = prevNode;
 	return saveForReturn;
